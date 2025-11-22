@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="プロジェクト池袋 - 地域に根ざした不動産管理のプロフェッショナル。賃貸運営、管理、清掃、客付け、トラブル対応まで総合サポート。">
+    <title>プロジェクト池袋 | 地域密着型不動産管理会社</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="プロジェクト池袋" class="logo-img">
+                <span class="logo-text">プロジェクト池袋</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">ホーム</a></li>
+                <li><a href="#services" class="nav-link">サービス</a></li>
+                <li><a href="#ceo" class="nav-link">代表挨拶</a></li>
+                <li><a href="#about" class="nav-link">会社概要</a></li>
+                <li><a href="#contact" class="nav-link">お問い合わせ</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">地域に根ざした<br>不動産管理のプロフェッショナル</h1>
+            <p class="hero-subtitle fade-in-delay">賃貸運営から管理、清掃、客付け、トラブル対応まで<br>あらゆる不動産ニーズに応えます</p>
+            <div class="hero-buttons fade-in-delay-2">
+                <a href="#contact" class="btn btn-primary">お問い合わせ</a>
+                <a href="#services" class="btn btn-secondary">サービス一覧</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+        <img src="mascot.png" alt="マスコット" class="mascot mascot-hero">
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <img src="mascot.png" alt="マスコット" class="mascot mascot-services">
+            <div class="section-header">
+                <h2 class="section-title">サービス一覧</h2>
+                <p class="section-subtitle">オーナー様とお客様の双方に最適なソリューションを提供</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3 class="service-title">賃貸不動産運営</h3>
+                    <p class="service-description">物件の掲載から予約管理、収益最適化まで、トータルな運営サポートを提供します。</p>
+                    <ul class="service-features">
+                        <li>物件掲載・プロモーション</li>
+                        <li>予約管理システム</li>
+                        <li>収益分析・最適化</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3 class="service-title">物件管理</h3>
+                    <p class="service-description">日常的な管理業務から設備保守まで、物件の価値を維持・向上させます。</p>
+                    <ul class="service-features">
+                        <li>定期点検・メンテナンス</li>
+                        <li>設備修繕対応</li>
+                        <li>入居者対応</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3 class="service-title">清掃サービス</h3>
+                    <p class="service-description">プロフェッショナルな清掃で、常に快適な空間を維持します。</p>
+                    <ul class="service-features">
+                        <li>定期清掃</li>
+                        <li>退去後クリーニング</li>
+                        <li>特殊清掃対応</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👥</div>
+                    <h3 class="service-title">客付けサポート</h3>
+                    <p class="service-description">効果的なマーケティングで、優良な入居者を迅速に確保します。</p>
+                    <ul class="service-features">
+                        <li>物件プロモーション</li>
+                        <li>入居者審査</li>
+                        <li>契約手続き代行</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3 class="service-title">トラブル対応</h3>
+                    <p class="service-description">24時間体制で緊急対応。あらゆるトラブルを迅速に解決します。</p>
+                    <ul class="service-features">
+                        <li>24時間緊急対応</li>
+                        <li>クレーム処理</li>
+                        <li>法的サポート</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h3 class="service-title">総合コンサルティング</h3>
+                    <p class="service-description">不動産投資から運営戦略まで、専門的なアドバイスを提供します。</p>
+                    <ul class="service-features">
+                        <li>投資コンサルティング</li>
+                        <li>運営戦略立案</li>
+                        <li>収益改善提案</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CEO Greeting Section -->
+    <section class="ceo-greeting" id="ceo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">代表挨拶</h2>
+                <p class="section-subtitle">地域に根ざした不動産管理への想い</p>
+            </div>
+            <div class="ceo-content">
+                <div class="ceo-photo-wrapper">
+                    <div class="ceo-photo">
+                        <img src="ceo-photo.jpg" alt="代表取締役 田中 健太郎">
+                    </div>
+                    <div class="ceo-info">
+                        <h3 class="ceo-name">田中 健太郎</h3>
+                        <p class="ceo-title">代表取締役社長</p>
+                    </div>
+                </div>
+                <div class="ceo-message">
+                    <h3 class="message-title">「地域と共に成長する」という信念</h3>
+                    <p class="message-text">
+                        プロジェクト池袋のウェブサイトをご覧いただき、誠にありがとうございます。代表取締役の田中健太郎と申します。
+                    </p>
+                    <p class="message-text">
+                        私がこの会社を立ち上げたのは、2015年のことでした。当時、大手不動産会社で10年間勤務する中で、「もっとオーナー様と入居者様、双方に寄り添ったサービスができないか」という想いが日に日に強くなっていました。
+                    </p>
+                    <p class="message-text">
+                        特に印象的だったのは、ある小規模オーナー様からの相談でした。「大手は対応が画一的で、私たち小規模オーナーの細かな要望に応えてくれない」という言葉に、私は大きな衝撃を受けました。そこで気づいたのです。不動産管理において最も大切なのは、規模の大きさではなく、一つひとつの物件、一人ひとりのお客様に真摯に向き合う姿勢だと。
+                    </p>
+                    <p class="message-text">
+                        池袋という街を選んだのにも理由があります。この街は、大都市の利便性と下町の温かさが共存する、非常に魅力的な場所です。多様な人々が行き交い、日々変化し続けるこの街で、地域に根ざした不動産管理サービスを提供したい。そう考え、この地で起業を決意しました。
+                    </p>
+                    <p class="message-text">
+                        創業当初は、わずか5物件の管理からスタートしました。しかし、「24時間365日、お客様の声に耳を傾ける」という姿勢を貫き続けた結果、口コミで評判が広がり、現在では500物件以上を管理させていただくまでに成長しました。
+                    </p>
+                    <p class="message-text">
+                        私たちが大切にしているのは、「スピード」「誠実さ」「専門性」の3つです。トラブルが発生した際の迅速な対応、オーナー様への透明性の高い報告、そして長年培ってきた不動産管理のノウハウ。これらを武器に、お客様の大切な資産を守り、価値を高めるお手伝いをさせていただいています。
+                    </p>
+                    <p class="message-text">
+                        不動産管理は、単なる業務ではありません。それは、人と人、人と街をつなぐ、とても人間的な仕事だと考えています。オーナー様の想い、入居者様の暮らし、そして地域社会の発展。これらすべてに貢献できることが、私たちの誇りです。
+                    </p>
+                    <p class="message-text">
+                        これからも、池袋を中心とした地域の皆様と共に成長し、信頼される不動産管理会社であり続けることをお約束いたします。どんな小さなご相談でも構いません。ぜひお気軽にお声がけください。
+                    </p>
+                    <div class="ceo-signature">
+                        <p class="signature-text">プロジェクト池袋 代表取締役</p>
+                        <p class="signature-name">田中 健太郎</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">プロジェクト池袋について</h2>
+                    <p class="about-description">
+                        私たちは池袋を中心とした地域に根ざし、不動産オーナー様とお客様の双方に最高のサービスを提供する不動産管理会社です。
+                    </p>
+                    <p class="about-description">
+                        長年の経験と地域ネットワークを活かし、賃貸運営から日常管理、清掃、客付け、トラブル対応まで、不動産に関するあらゆるニーズにワンストップで対応します。
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">管理物件数</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">顧客満足度</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">サポート体制</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="hero-bg.jpg" alt="池袋の街並み">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">お問い合わせ</h2>
+                <p class="section-subtitle">お気軽にご相談ください。専門スタッフが丁寧に対応いたします。</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <h4>所在地</h4>
+                            <p>〒171-0022<br>東京都豊島区南池袋2-1-1</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-text">
+                            <h4>電話番号</h4>
+                            <p>03-1234-5678<br>受付時間: 9:00-18:00（平日）</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-text">
+                            <h4>メールアドレス</h4>
+                            <p>info@project-ikebukuro.jp</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">お名前 <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required placeholder="山田 太郎">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">メールアドレス <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="example@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">電話番号</label>
+                        <input type="tel" id="phone" name="phone" placeholder="03-1234-5678">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">お問い合わせ種別 <span class="required">*</span></label>
+                        <select id="subject" name="subject" required>
+                            <option value="">選択してください</option>
+                            <option value="rental">賃貸運営について</option>
+                            <option value="management">物件管理について</option>
+                            <option value="cleaning">清掃サービスについて</option>
+                            <option value="other">その他</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">お問い合わせ内容 <span class="required">*</span></label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="お問い合わせ内容をご記入ください"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">送信する</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <img src="mascot.png" alt="マスコット" class="mascot mascot-footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>プロジェクト池袋</h3>
+                    <p>地域に根ざした不動産管理のプロフェッショナル</p>
+                </div>
+                <div class="footer-section">
+                    <h4>サービス</h4>
+                    <ul>
+                        <li><a href="#services">賃貸不動産運営</a></li>
+                        <li><a href="#services">物件管理</a></li>
+                        <li><a href="#services">清掃サービス</a></li>
+                        <li><a href="#services">客付けサポート</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>会社情報</h4>
+                    <ul>
+                        <li><a href="#ceo">代表挨拶</a></li>
+                        <li><a href="#about">会社概要</a></li>
+                        <li><a href="#contact">お問い合わせ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 プロジェクト池袋. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
